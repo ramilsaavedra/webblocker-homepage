@@ -1,0 +1,11 @@
+.header {
+  background: #000;
+  padding: 20px 0;
+}
+
+.headerWrap {
+  margin: 0 10%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
