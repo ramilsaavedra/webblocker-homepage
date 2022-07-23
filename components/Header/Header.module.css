@@ -9,3 +9,19 @@
   grid-template-columns: auto 1fr;
   align-items: center;
 }
+
+@media only screen and (max-width: 768px) {
+  .header img {
+    width: auto !important;
+    height: 45px !important;
+  }
+
+  .headerWrap {
+    margin: 0 20px;
+  }
+
+  .header a {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}
