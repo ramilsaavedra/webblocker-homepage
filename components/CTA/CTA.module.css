@@ -1,0 +1,9 @@
+.headerCTA {
+  justify-self: end;
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: var(--main-red);
+  border: 2px solid transparent;
+  color: white;
+  cursor: pointer;
+}

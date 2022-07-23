@@ -1,9 +1,19 @@
+:root {
+  --main-red: #bc0735;
+  --sub-red: #8b0c2c;
+  --black: #171717;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: var(--black);
+  color: #fff;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -13,14 +23,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }
