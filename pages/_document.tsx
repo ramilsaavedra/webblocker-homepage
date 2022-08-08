@@ -41,6 +41,7 @@ export default function Document() {
         <meta property='og:image' content='/og-image.jpg' />
         <meta property='og:image:width' content='600' />
         <meta property='og:image:height' content='314' />
+        <meta property='og:image:alt' content='Web Blocker logo with name' />
       </Head>
       <body>
         <Main />
