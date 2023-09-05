@@ -16,20 +16,22 @@ const Home: NextPage = () => {
       <Header />
       <main className={styles.main}>
         <section className={styles.hero}>
-          <h1>Boost your productivity and performance</h1>
+          <h1>
+            Enhance Your Productivity for Free with Web Blocker – Keep
+            Distractions at Bay.
+          </h1>
           <p>
-            Web blocker is a <strong>free</strong> chrome extension. It lets you
-            block distracting websites to stay focus.{' '}
+            Web Blocker, a <strong>free</strong> Chrome extension, empowers you
+            to maintain focus by blocking distracting websites.
           </p>
           <Image src={banner} alt='' />
         </section>
         <section className={styles.features}>
-          <h2>Break the bad habits</h2>
+          <h2>Escape Distractions and Boost Productivity</h2>
           <p>
-            People are at risk of being distracted whenever they are online. To
-            make the most of your working hours, you need to maintain focus,
-            which is incredibly hard to do with so many websites causing
-            distractions
+            Online distractions are a constant challenge. To optimize your work
+            hours, staying focused is key – a daunting task with countless
+            websites vying for your attention.
           </p>
           <div className={styles.featuresWrap}>
             <div className={styles.featureWrap}>
@@ -53,9 +55,10 @@ const Home: NextPage = () => {
                 />
               </svg>
 
-              <h3>Block Sites</h3>
+              <h3>Block Sites Effortlessly</h3>
               <p>
-                Simply block site by adding and removing site on your blocklist
+                Easily block and unblock websites by managing your personalized
+                blocklist.
               </p>
             </div>
 
@@ -80,10 +83,10 @@ const Home: NextPage = () => {
                 />
               </svg>
 
-              <h3>Schedule Blocking</h3>
+              <h3>Set Your Schedule for Site Blocking</h3>
               <p>
-                Create a daily routine by setting days and times when to block
-                sites
+                Establish a daily routine by specifying the days and times for
+                blocking websites.
               </p>
             </div>
             <div className={styles.featureWrap}>
@@ -107,16 +110,16 @@ const Home: NextPage = () => {
                 />
               </svg>
 
-              <h3>Custom Redirect</h3>
-              <p>Assign a url to redirect when the website is block</p>
+              <h3>Personalized Redirection</h3>
+              <p>Direct blocked websites to a custom URL of your choice.</p>
             </div>
           </div>
         </section>
         <section className={styles.ending}>
-          <h2>Improve your productivity today</h2>
+          <h2>Boost Your Productivity Now</h2>
           <p>
-            Web blocker is the best way to block distracting websites, get in
-            the zone and become more productive
+            Web Blocker is your ultimate solution to eliminate distracting
+            websites, helping you enter the productivity zone effortlessly.
           </p>
           <CTA />
         </section>

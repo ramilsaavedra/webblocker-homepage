@@ -13,7 +13,7 @@
 }
 
 .hero h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 700;
   margin-top: 0;
 }
@@ -89,66 +89,6 @@
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 600px) {
-  .main {
-    margin: 0;
-    margin-bottom: 25px;
-  }
-
-  .featuresWrap {
-    grid-template-columns: 1fr;
-  }
-
-  .hero h1 {
-    font-size: 35px;
-    margin: 0 10px;
-    margin-bottom: 15px;
-  }
-
-  .hero p {
-    font-size: 18px;
-    margin: 0 10px;
-    margin-bottom: 15px;
-  }
-
-  .hero {
-    margin: 0;
-    margin-top: 25px;
-  }
-
-  .features {
-    margin: 0;
-    margin-top: 25px;
-  }
-
-  .features h2,
-  .ending h2 {
-    font-size: 30px;
-    margin: 0 15px;
-    margin-bottom: 10px;
-  }
-
-  .features p,
-  .ending p {
-    font-size: 16px;
-    margin: 0 15px;
-  }
-
-  .featuresWrap {
-    margin: 0 15px;
-    margin-top: 25px;
-    gap: 15px;
-  }
-
-  .ending {
-    margin-top: 25px;
-  }
-
-  .ending p {
-    margin-bottom: 30px;
-  }
-}
-
 /* Medium screen devices (768px and above) */
 @media only screen and (max-width: 899px) {
   .main {
@@ -206,5 +146,65 @@
 
   .ending p {
     margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  .featuresWrap {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+    margin: 0 10px;
+    margin-bottom: 15px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    margin: 0 10px;
+    margin-bottom: 15px;
+  }
+
+  .hero {
+    margin: 0;
+    margin-top: 25px;
+  }
+
+  .features {
+    margin: 0;
+    margin-top: 25px;
+  }
+
+  .features h2,
+  .ending h2 {
+    font-size: 30px;
+    margin: 0 15px;
+    margin-bottom: 10px;
+  }
+
+  .features p,
+  .ending p {
+    font-size: 16px;
+    margin: 0 15px;
+  }
+
+  .featuresWrap {
+    margin: 0 15px;
+    margin-top: 25px;
+    gap: 15px;
+  }
+
+  .ending {
+    margin-top: 25px;
+  }
+
+  .ending p {
+    margin-bottom: 30px;
   }
 }
